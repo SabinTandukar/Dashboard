@@ -2,6 +2,7 @@ import React from 'react'
 import StatCards from './StatCards'
 import ActivityGraph from './ActivityGraph'
 import UsageRadar from './UsageRadar'
+import RecentTransactions from './RecentTransactions'
 
 
 const Grid = () => {
@@ -10,6 +11,7 @@ const Grid = () => {
             <StatCards />
             <ActivityGraph />
             <UsageRadar />
+            <RecentTransactions />
         </div>
     )
 }
